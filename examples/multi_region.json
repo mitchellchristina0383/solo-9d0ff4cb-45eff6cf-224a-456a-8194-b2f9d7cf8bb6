@@ -1,0 +1,16 @@
+{
+  "target": "T",
+  "links": [
+    {"a": "T", "b": "A0", "old_cost": 10, "new_cost": 30},
+    {"a": "T", "b": "B0", "old_cost": 20, "new_cost": 20},
+    {"a": "A0", "b": "B0", "old_cost": 1, "new_cost": 1},
+    {"a": "T", "b": "A1", "old_cost": 10, "new_cost": 30},
+    {"a": "T", "b": "B1", "old_cost": 20, "new_cost": 20},
+    {"a": "A1", "b": "B1", "old_cost": 1, "new_cost": 1},
+    {"a": "T", "b": "Q0", "old_cost": 5, "new_cost": 5},
+    {"a": "Q0", "b": "Q1", "old_cost": 5, "new_cost": 5},
+    {"a": "Q1", "b": "Q2", "old_cost": 5, "new_cost": 5},
+    {"a": "Q2", "b": "Q3", "old_cost": 5, "new_cost": 5}
+  ],
+  "batches": [["Q0", "Q1"], ["Q2", "Q3"], ["B0"], ["B1"], ["A0"], ["A1"], ["T"]]
+}
